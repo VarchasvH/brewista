@@ -21,7 +21,10 @@ const Hero = () => {
           alt='Hero Image'
           className='md:h-[80vh] md:w-[80vw] h-[40vh] w-[80vw] rounded-lg'
         />
-        <text className='flex justify-center items-center md:text-3xl md:pr-[710px] md:pl-36 font-semibold md:pt-24 pl-12 pr-20 pt-10 text-pretty '>
+        <text
+          className='flex justify-center items-center md:text-3xl md:pr-[710px] md:pl-36 font-semibold md:pt-24 pl-12 pr-20 pt-10 text-pretty '
+          id='about'
+        >
           You&apos;ll be greeted by stunning visuals of our freshly brewed
           beverages, delicious pastries, and cozy atmosphere.
         </text>

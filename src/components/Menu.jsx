@@ -26,7 +26,10 @@ const Menu = () => {
       <text className='text-lg flex justify-center items-center md:text-3xl md:pr-[710px] md:pl-36 font-semibold md:pt-24 pl-12 pr-20 pt-10 text-pretty'>
         Well curated menu of fresh, high-quality coffee.
       </text>
-      <text className='text-3xl flex justify-center items-center md:text-5xl md:pr-[1050px] md:pl-0 font-semibold md:pt-24 md:pb-10 pl-10 pr-52 pt-10 pb-5 text-pretty'>
+      <text
+        className='text-3xl flex justify-center items-center md:text-5xl md:pr-[1050px] md:pl-0 font-semibold md:pt-24 md:pb-10 pl-10 pr-52 pt-10 pb-5 text-pretty'
+        id='menu'
+      >
         Hot Drinks
       </text>
       <div className='flex flex-wrap justify-center'>
