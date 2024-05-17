@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Menu from "@/components/Menu";
 import React from "react";
@@ -7,6 +8,7 @@ const page = () => {
     <div className=''>
       <Hero />
       <Menu />
+      <Footer />
     </div>
   );
 };
