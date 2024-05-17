@@ -12,7 +12,6 @@ const Menu = () => {
       try {
         const res = await axios.get("https://api.sampleapis.com/coffee/hot");
         setMenuItems(res.data);
-        console.log(res.data);
       } catch (error) {
         console.log(error);
       }
@@ -116,7 +115,7 @@ const Menu = () => {
           </text>
         </div>
         <div className='pb-10'>
-          <button class='bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2 px-4  border-black hover:border-transparent rounded text-2xl border-2'>
+          <button className='bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2 px-4  border-black hover:border-transparent rounded text-2xl border-2'>
             Order now!{" "}
           </button>
         </div>
