@@ -1,6 +1,7 @@
 "use client";
 import axios from "axios";
 import Image from "next/image";
+import woodenImg from "@/../public/hero/bef.jpg";
 import { useEffect, useState } from "react";
 
 const Menu = () => {
@@ -104,6 +105,32 @@ const Menu = () => {
               </h3>
             </a>
           </div>
+        </div>
+      </div>
+      <div className='flex flex-col items-center justify-center'>
+        <div>
+          <hr className='bg-neutral-800 h-0.5' />
+          <text className='text-lg pb-10 pt-10 md:text-4xl font-bold md:pr-44 md:pl-56 flex justify-center items-center text-pretty md:pb-10 px-12'>
+            We truly value exceptional quality, dedicated and talented
+            employees, outstanding customer service, as well as responsibility.
+          </text>
+        </div>
+        <div className='pb-10'>
+          <button class='bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2 px-4  border-black hover:border-transparent rounded text-2xl border-2'>
+            Order now!{" "}
+          </button>
+        </div>
+        <div>
+          <Image
+            src={woodenImg}
+            quality={100}
+            width={200}
+            height={200}
+            unoptimized={true}
+            priority
+            alt='Hero Image'
+            className='md:h-[80vh] md:w-[80vw] h-[40vh] w-[80vw] rounded-lg'
+          />
         </div>
       </div>
     </div>
