@@ -2,6 +2,12 @@
 
 This is the landing page for a coffee shop website called "Brewista" built using Next.js, a React framework for server-side rendering (SSR) and static site generation (SSG). The landing page includes a visually appealing hero section, featured products, and information about the coffee shop.
 
+
+
+
+https://github.com/VarchasvH/brewista/assets/100064742/c0536301-6904-43db-86c3-7558bf6d1f8d
+
+
 ## Acknowledgments
 
 - [Design Inspiration](https://dribbble.com/keitotostudio)
